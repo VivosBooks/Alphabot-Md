@@ -104,8 +104,8 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, gunakan ${botname} dengan bijak dan penuh tanggung jawab
-Terima Kasih
+saya ${botname}, gunakan 
+${botname} dengan bijak dan penuh tanggung jawab. Terima Kasih
 By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
