@@ -796,6 +796,9 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
             case 'tes': case 'runtime':
             reply(`Runtime : ${runtime(process.uptime())}`)
             break
+		case 'infowar' : {
+		reply(`WAR HAS STARTED, INFO WAR POIN IN GAME`)
+		break
             case 'public': {
                 if (!m.key.fromMe && !isCreator) return reply(lang.ownerOnly())
                 alpha.public = true
