@@ -1,8 +1,10 @@
 exports.private = () =>{
-	return`Fitur hanya bisa di gunakan di private chat By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+	return`Fitur hanya bisa di gunakan di private chat 
+	By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★~`
+    return `⏳ Mohon tunggu sebentar 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★~`
 }
 exports.ok = () => {
     return `✅ Done. By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★~`
@@ -15,42 +17,52 @@ exports.erorLink = () => {
     return `⚠️ Link nya error By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `Silahkan pilih media yang ingin kamu download 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 exports.replyImg = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command} By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `Kirim/Reply Foto Dengan Caption ${prefix + command} 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu* By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★.`
+    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu* 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `❎ Harap masukkan pesan yang ingin disampaikan! 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu* By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu* 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `❎ Command ini khusus Owner 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `✅  ️Sudah selesai, Owner ~ 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `👥  Command ini hanya bisa digunakan di dalam grup! 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `🙅  Command ini hanya bisa digunakan oleh admin grup! 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `Kode tidak valid! 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.listBlock = (blockNumber) => {
@@ -60,35 +72,41 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `❎ User bukan seorang admin! ❎ 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `❎ Tidak  dapat mem-promote user yang merupakan admin! 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏 By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `Jadikan bot sebagai admin terlebih dahulu! 🙏 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.received = (pushname) => {
     return `
 Halo ${pushname}!
-Terima kasih telah melapor, laporanmu akan kami segera terima. By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+Terima kasih telah melapor, laporanmu akan kami segera terima. 
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran file terlalu besar By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★!`
+    return `Ukuran file terlalu besar 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★!`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
+    return `"${q}", bukan angka! 
+    By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+saya ${botname}, gunakan ${botname} dengan bijak dan penuh tanggung jawab
+Terima Kasih
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
