@@ -1,56 +1,56 @@
 exports.private = () =>{
-	return`Fitur hanya bisa di gunakan di private chat`
+	return`Fitur hanya bisa di gunakan di private chat By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ Mohon tunggu sebentar By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ Done. By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ Fitur Sedang Error By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link nya error By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `Silahkan pilih media yang ingin kamu download By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 exports.replyImg = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
+    return `Kirim/Reply Foto Dengan Caption ${prefix + command} By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu* By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `❎ Harap masukkan pesan yang ingin disampaikan! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu* By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ Command ini khusus Owner By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️Sudah selesai, Owner ~ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Command ini hanya bisa digunakan di dalam grup! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  Command ini hanya bisa digunakan oleh admin grup! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `Kode tidak valid! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.listBlock = (blockNumber) => {
@@ -60,29 +60,29 @@ Total diblokir: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ User bukan seorang admin! ❎ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `❎ Tidak  dapat mem-promote user yang merupakan admin! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan bot sebagai admin terlebih dahulu! 🙏 By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.received = (pushname) => {
     return `
 Halo ${pushname}!
-Terima kasih telah melapor, laporanmu akan kami segera terima.`
+Terima kasih telah melapor, laporanmu akan kami segera terima. By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran file terlalu besar!`
+    return `Ukuran file terlalu besar By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★!`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka!`
+    return `"${q}", bukan angka! By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★`
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`Hai kak ${pushname} 👋 selamat ${salam} , 
@@ -104,6 +104,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
 ╰❒ ${prefix}donate
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Owner 」 
@@ -131,7 +132,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}self
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [reply pesan bot]
-╰❒ ${prefix}setppbot [reply image]
+╰❒ ${prefix}setppbot [reply image] 
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Database 」 
@@ -146,6 +148,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}getmsg [nama file]
 ├ ${prefix}listmsg
 ╰❒ ${prefix}delmsg [nama file]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Group 」 
@@ -166,23 +169,27 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}group [open/close]
 ├ ${prefix}tagall [text]
 ╰❒ ${prefix}hidetag [text]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Anime 」 
 ├ ${prefix}quotesanime
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Tag 」 
 ├ ${prefix}stickertag
 ├ ${prefix}videotag [query]
 ├ ${prefix}vntag [query]
 ╰❒ ${prefix}imagetag [query]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Stalking 」 
 ├ ${prefix}igstalk [username]
 ├ ${prefix}ghstalk [username]
 ╰❒ ${prefix}ytstalk [channel]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Search 」 
@@ -194,6 +201,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}webtoons [query]
 ├ ${prefix}drakor [query]
 ╰❒ ${prefix}pinterest [query]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Converter 」
@@ -205,6 +213,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}togif [sticker]
 ├ ${prefix}tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Image Effect 」 
@@ -242,6 +251,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}burn [reply image/stiker]
 ├ ${prefix}brazzers [reply image/stiker]
 ╰❒ ${prefix}beautiful [reply image/stiker]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Sticker Effect 」 
@@ -264,6 +274,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}threshold [reply image/stiker]
 ├ ${prefix}brightness [reply image/stiker]
 ╰❒ ${prefix}invertgreyscale [reply image/stiker]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Download 」 
@@ -292,7 +303,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}gitrepo [username repo branch]
 ├ ${prefix}mediafire [link]
 ╰❒ ${prefix}twitter link
-
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
+ 
 ╭─❒ 「 Primbon 」
 ├ ${prefix}nomorhoki 887435047326
 ├ ${prefix}artimimpi [query]
@@ -324,6 +336,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}masasubur
 ├ ${prefix}zodiak 
 ╰❒ ${prefix}shio [query]
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Random Anime 」
 ├ ${prefix}loli
@@ -357,6 +370,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}poke
 ├ ${prefix}dance
 ╰❒ ${prefix}cringe
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Nsfw & Sfw 」
 ├ ${prefix}ahegao
@@ -437,6 +451,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}ngif
 ├ ${prefix}cuddle
 ╰❒ ${prefix}zettai
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Ephoto360 Menu 」
 ├ ${prefix}youtubegold
@@ -518,6 +533,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}1917text
 ├ ${prefix}puppycute
 ╰❒ ${prefix}rosebirthday
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Textpro Menu 」
@@ -701,6 +717,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}metalb2 text
 ├ ${prefix}metalg text
 ╰❒ ${prefix}metalg text
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Others 」
@@ -710,7 +727,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}smeme [text]
 ├ ${prefix}smeme2 [text|text]
 ├ ${prefix}memegen [text|text]
-╰❒
+╰❒ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Game Menu 」
 ├ ${prefix}kuismath
@@ -718,6 +735,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
 ╰❒ ${prefix}caklontong
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 
 ╭─❒ 「 Asupan Menu 」
@@ -743,6 +761,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}santuy
 ├ ${prefix}ukhty
 ╰❒ ${prefix}syifa
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 Telegram Sticker 」
 ├ ${prefix}awoawo
@@ -766,7 +785,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}sponsbob
 ├ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
-,
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
+
 ╭─❒ 「 Random Cewe 」
 ├ ${prefix}china 
 ├ ${prefix}indonesia 
@@ -779,6 +799,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}jiso 
 ├ ${prefix}lisa  
 ╰❒ ${prefix}rose
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 TqTo 」 
 ├ My God
@@ -792,12 +813,14 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
     `
 }
 
 exports.rules = (prefix) => {
     return `
 *── 「 RULES AND FAQ 」 ──*
+ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 1. Jangan spam bot. 🙅
 Sanksi: *❎ WARN/SOFT BLOCK*
@@ -829,7 +852,7 @@ Jika sudah dipahami rules-nya, silakan ketik *${prefix}allmenu* untuk memulai!
 ⚠️ Segala kebijakan dan ketentuan Alphabot di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
 
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan Alphabot
-😖🙏
+😖🙏  By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 exports.welcome = () =>{
@@ -848,8 +871,7 @@ Goodbye`
 exports.source = () =>{
 return`*------「 SOURCE CODE 」 ------*
 
-Base : https://github.com/DikaArdnt/Hisoka-Morou
-Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 exports.tos = (ownernomer) => {
@@ -863,7 +885,7 @@ Berapapun donasi kalian akan sangat berarti 👍
 
 Thanks!
 
-Contact person Owner:
+Contact person Owner:★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 wa.me/${ownernomer}
 
     `
@@ -878,6 +900,7 @@ exports.info = (prefix) =>{
 ├ ${prefix}runtime
 ├ ${prefix}botstatus
 ╰❒ ${prefix}donate
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.ownermenu = (prefix) =>{
@@ -907,6 +930,7 @@ return`╭─❒ 「 Owner 」
 ├ ${prefix}public [only bot]
 ├ ${prefix}del [pesan bot]
 ╰❒ ${prefix}setppbot [reply image]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.database = (prefix) =>{
@@ -922,6 +946,7 @@ exports.database = (prefix) =>{
 ├ ${prefix}getmsg [nama file]
 ├ ${prefix}listmsg
 ╰❒ ${prefix}delmsg [nama file]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.group = (prefix) =>{
@@ -943,6 +968,7 @@ exports.group = (prefix) =>{
 ├ ${prefix}group [open/close]
 ├ ${prefix}tagall [text]
 ╰❒ ${prefix}hidetag [text]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.anime = (prefix) =>{
@@ -951,6 +977,7 @@ exports.anime = (prefix) =>{
 ├ ${prefix}anime [query]
 ├ ${prefix}manga [query]
 ╰❒ ${prefix}character [query]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.tag = (prefix) =>{
@@ -959,6 +986,7 @@ exports.tag = (prefix) =>{
 ├ ${prefix}videotag [query]
 ├ ${prefix}vntag [query]
 ╰❒ ${prefix}imagetag [query]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.stalk = (prefix) =>{
@@ -966,6 +994,7 @@ exports.stalk = (prefix) =>{
 ├ ${prefix}igstalk [username]
 ├ ${prefix}ghstalk [username]
 ╰❒ ${prefix}ytstalk [channel]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.search = (prefix) =>{
@@ -978,6 +1007,7 @@ exports.search = (prefix) =>{
 ├ ${prefix}webtoons [query]
 ├ ${prefix}drakor [query]
 ╰❒ ${prefix}pinterest [query]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.converter = (prefix) =>{
@@ -990,6 +1020,7 @@ exports.converter = (prefix) =>{
 ├ ${prefix}togif [sticker]
 ├ ${prefix}tomp4 [sticker]
 ╰❒${prefix}toimg [reply sticker]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 exports.effect = (prefix) =>{
@@ -1028,6 +1059,7 @@ exports.effect = (prefix) =>{
 ├ ${prefix}burn [reply image/stiker]
 ├ ${prefix}brazzers [reply image/stiker]
 ╰❒ ${prefix}beautiful [reply image/stiker]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
 
 //
@@ -1052,6 +1084,7 @@ exports.effect2 = (prefix) =>{
 ├ ${prefix}threshold [reply image/stiker]
 ├ ${prefix}brightness [reply image/stiker]
 ╰❒ ${prefix}invertgreyscale [reply image/stiker]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1082,6 +1115,7 @@ return`╭─❒ 「 Download 」
 ├ ${prefix}gitrepo [username repo branch]
 ├ ${prefix}mediafire [link]
 ╰❒ ${prefix}twitter link
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1118,6 +1152,7 @@ exports.ranime = (prefix) =>{
 ├ ${prefix}poke
 ├ ${prefix}dance
 ╰❒ ${prefix}cringe
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1201,6 +1236,7 @@ exports.nsfw = (prefix) =>{
 ├ ${prefix}ngif
 ├ ${prefix}cuddle
 ╰❒ ${prefix}zettai
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1386,6 +1422,7 @@ exports.textpro = (prefix) =>{
 ├ ${prefix}metalb2 text
 ├ ${prefix}metalg text
 ╰❒ ${prefix}metalg text
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1400,6 +1437,7 @@ return`╭─❒ 「 Others 」
 ├ ${prefix}smeme [text]
 ├ ${prefix}smeme2 [text|text]
 ╰❒ ${prefix}memegen [text|text]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 exports.game = (prefix) =>{
@@ -1409,6 +1447,7 @@ return`╭─❒ 「 Game Menu 」
 ├ ${prefix}tekateki
 ├ ${prefix}susunkata
 ╰❒ ${prefix}caklontong
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 exports.asupan = (prefix) =>{
@@ -1435,6 +1474,7 @@ return`╭─❒ 「 Asupan Menu 」
 ├ ${prefix}santuy
 ├ ${prefix}ukhty
 ╰❒ ${prefix}syifa
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 exports.cecan = (prefix) =>{
@@ -1450,6 +1490,7 @@ return`╭─❒ 「 Random Cewe 」
 ├ ${prefix}jiso 
 ├ ${prefix}lisa  
 ╰❒ ${prefix}rose
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1466,6 +1507,7 @@ exports.tqto = () =>{
 ├ ZeeoneOfc
 ├ Penyedia Module
 ╰❒ And All Support
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1501,6 +1543,7 @@ exports.primbonmenu = (prefix) =>{
 ├ ${prefix}masasubur
 ├ ${prefix}zodiak 
 ╰❒ ${prefix}shio [query]
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `
 }
 
@@ -1610,4 +1653,5 @@ exports.stcmenu = (prefix) =>{
 ├ ${prefix}sponsbob
 ├ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
+By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 `}
