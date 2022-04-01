@@ -18,12 +18,12 @@ global.autoketik = false //status auto mengetik (auto typing)
 global.available = false //status online (online)
 
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername= "ᴹᴿ᭄ Alphabot-Mdོོ ×፝֟͜×" //nama kalian
+global.botname = "★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★" //namabot kalian
+global.ownername= "★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★" //nama kalian
 global.myweb ="https://api-alphabot.herokuapp.com/" //bebas asal jan hapus
 global.youtube = "https://youtube.com/" //bebas asal jan hapus
 global.github = "https://github.com/" //bebas
-global.email = "janganemail@gmail.com" //bebas
+global.email = "★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★@gmail.com" //bebas
 global.region = "Indonesia" //bebas
 global.ownernomer = "6283861230413" // nomor wa kalian
 global.ownernomerr = "+6283861230413" //nmr wa kalian
@@ -31,8 +31,8 @@ global.thumbnail = "./image/img1.jpg" // ini lol.jpg adalah nama foto di folder 
 global.donasi = "./image/img1.jpg" // foto donasi di folder image
 global.background_welcome="https://telegra.ph/file/90a931648de597820bc08.jpg" // maks size 30kb, agar welcome image nya tdk delay
 global.owner = ["6283861230413","6283861230413","6283861230413"] //ganti agar fitur owner bisa di gunakan
-global.packname = '© Alphabot-Mdོ' //sticker wm ubah
-global.author = 'Di Buat Oleh Alphabot-Mdོ' //sticker wm ganti nama kalian
+global.packname = '© ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★' //sticker wm ubah
+global.author = 'By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★' //sticker wm ganti nama kalian
 global.sessionName = 'session'
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
