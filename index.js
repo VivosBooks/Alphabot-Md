@@ -810,7 +810,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 		break
 		case 'coc': {
 		coc = fs.readFileSync(coc)
-		replay alpha.send5ButImg(from, lang.coc(ownernomer) , `© ${ownername}`,coc, but , { userJid: m.chat, quoted: m })
+		await alpha.send5ButImg(from, lang.coc(ownernomer) , `© ${ownername}`,coc, but , { userJid: m.chat, quoted: m })
 		}
             break
             case 'ping': case 'botstatus': case 'statusbot': {
