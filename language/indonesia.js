@@ -908,6 +908,13 @@ wa.me/${ownernomer}
 
     `
 }
+exports.coc = (ownernomor) => {
+	return `
+*-------「 COC FITUR 」 -------*
+- Info Clan
+- Info Player
+'
+}
 
 exports.info = (prefix) =>{
 	return`╭─❒ 「 Bot Info 」 
