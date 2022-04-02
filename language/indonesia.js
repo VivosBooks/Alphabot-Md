@@ -356,121 +356,6 @@ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 ╰❒ ${prefix}shio [query]
  By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
-╭─❒ 「 Random Anime 」
-├ ${prefix}loli
-├ ${prefix}neko
-├ ${prefix}waifu
-├ ${prefix}shinobu
-├ ${prefix}megumin
-├ ${prefix}bully
-├ ${prefix}cuddle
-├ ${prefix}cry
-├ ${prefix}hug
-├ ${prefix}awoo
-├ ${prefix}kiss
-├ ${prefix}lick
-├ ${prefix}pat
-├ ${prefix}smug
-├ ${prefix}bonk
-├ ${prefix}yeet
-├ ${prefix}blush
-├ ${prefix}smile
-├ ${prefix}wave
-├ ${prefix}highfive
-├ ${prefix}handhold
-├ ${prefix}nom
-├ ${prefix}bite
-├ ${prefix}glomp
-├ ${prefix}slap
-├ ${prefix}kill
-├ ${prefix}happy
-├ ${prefix}wink
-├ ${prefix}poke
-├ ${prefix}dance
-╰❒ ${prefix}cringe
- By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
-
-╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
- By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
-
 ╭─❒ 「 Ephoto360 Menu 」
 ├ ${prefix}youtubegold
 ├ ${prefix}youtubesilver
@@ -755,32 +640,6 @@ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 ╰❒ ${prefix}caklontong
  By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
-
-╭─❒ 「 Asupan Menu 」
-├ ${prefix}chika
-├ ${prefix}delvira
-├ ${prefix}ayu
-├ ${prefix}bunga
-├ ${prefix}aura
-├ ${prefix}nisa
-├ ${prefix}ziva
-├ ${prefix}yana
-├ ${prefix}viona
-├ ${prefix}syania
-├ ${prefix}riri
-├ ${prefix}syifa
-├ ${prefix}mama_gina
-├ ${prefix}alcakenya
-├ ${prefix}mangayutri
-├ ${prefix}rikagusriani
-├ ${prefix}asupan
-├ ${prefix}bocil
-├ ${prefix}geayubi
-├ ${prefix}santuy
-├ ${prefix}ukhty
-╰❒ ${prefix}syifa
- By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
-
 ╭─❒ 「 Telegram Sticker 」
 ├ ${prefix}awoawo
 ├ ${prefix}benedict
@@ -803,20 +662,6 @@ By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 ├ ${prefix}sponsbob
 ├ ${prefix}kawan_sponsbob
 ╰❒ ${prefix}tyni
- By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
-
-╭─❒ 「 Random Cewe 」
-├ ${prefix}china 
-├ ${prefix}indonesia 
-├ ${prefix}malaysia 
-├ ${prefix}thailand 
-├ ${prefix}korea 
-├ ${prefix}japan 
-├ ${prefix}vietnam 
-├ ${prefix}jenni 
-├ ${prefix}jiso 
-├ ${prefix}lisa  
-╰❒ ${prefix}rose
  By ★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 
 ╭─❒ 「 TqTo 」 
@@ -907,14 +752,6 @@ Contact person Owner:★彡 𝕳𝕭𝕿_𝕭𝕺𝕿 彡★
 wa.me/${ownernomer}
 
     `
-}
-exports.coc = (ownernomor) => {
-	return `
-*-------「 COC FITUR 」 -------*
-- Info Clan
-- Info Player
-
-`
 }
 exports.info = (prefix) =>{
 	return`╭─❒ 「 Bot Info 」 
