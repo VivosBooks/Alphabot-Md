@@ -810,9 +810,8 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 		break
 		case 'coc': {
 		reply(mess.wait)
-		dns = fs.readFileSync(coc)
-		ini_txt = 'TES FITUR'
-		alpha.sendMessage(from, dns, image, {quoted: mek, caption: ini_txt})
+		coc = fs.readFileSync(coc)
+		await alpha.send5ButImg(from, lang.tos(ownernomer) , `© ${ownername}`,coc, but , { userJid: m.chat, quoted: m })
 		}
             break
             case 'ping': case 'botstatus': case 'statusbot': {
