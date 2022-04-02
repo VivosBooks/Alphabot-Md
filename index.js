@@ -808,9 +808,8 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 reply('Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot')
             }
 		break
-		case 'coc': {
-		coc = fs.readFileSync(coc)
-		await alpha.send5ButImg(from, lang.coc(ownernomer) , `© ${ownername}`,coc, but , { userJid: m.chat, quoted: m })
+		case 'coc': case {
+		await alpha.sendImg(from, lang.coc(ownernomer) , `© ${ownername}`,coc)
 		}
             break
             case 'ping': case 'botstatus': case 'statusbot': {
