@@ -810,7 +810,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 		break
 		case 'coc': {
 		reply(mess.wait)
-		dns = fs.readFileSync('./coc.jpg')
+		dns = fs.readFileSync('./image/coc.jpg')
 		ini_txt = 'TES FITUR'
 		alpha.sendMessage(from, dns, image, {quoted: mek, caption: ini_txt})
 		}
