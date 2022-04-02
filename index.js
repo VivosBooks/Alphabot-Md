@@ -807,43 +807,6 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 alpha.public = false
                 reply('Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot')
             }
-			break
-            case 'coc': {
-            var but = [
-          {
-            "urlButton": {
-              "displayText": "YouTube Creator",
-              "url": `${youtube}`
-            }
-          },
-          {
-            "urlButton": {
-              "displayText": "Rest Api's",              
-              "url": `${myweb}`
-
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "Rules",
-"id": 'rules'
-            }
-          },
-          {
-            "quickReplyButton": {
-              "displayText": "Owner",
-"id": 'owner'
-            }
-          },
-{
-            "quickReplyButton": {
-              "displayText": "List Command",
-"id": 'command'
-            }
-          }
-        ]
-        await alpha.send5ButImg(from, lang.coc(ownernomer) , `© ${ownername}`,coc, but , { userJid: m.chat, quoted: m })
-    }
             break
             case 'ping': case 'botstatus': case 'statusbot': {
                 let timestamp = speed()
