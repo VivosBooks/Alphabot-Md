@@ -807,6 +807,13 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 alpha.public = false
                 reply('Sukses Ganti Ke Mode Self\n\nUntuk mengubah ke mode public silahkan gunakan nomor bot')
             }
+		break
+		case 'coc': {
+		reply(mess.wait)
+		dns = fs.readFileSync('./coc.jpg')
+		ini_txt = 'TES FITUR'
+		alpha.sendMessage(from, dns, image, {quoted: mek, caption: ini_txt})
+		}
             break
             case 'ping': case 'botstatus': case 'statusbot': {
                 let timestamp = speed()
