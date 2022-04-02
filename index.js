@@ -811,7 +811,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 		case 'coc': {
 		reply(mess.wait)
 		coc = fs.readFileSync(coc)
-		await alpha.send5ButImg(from, lang.tos(ownernomer) , `© ${ownername}`,coc, but , { userJid: m.chat, quoted: m })
+		await alpha.send5ButImg(coc)
 		}
             break
             case 'ping': case 'botstatus': case 'statusbot': {
